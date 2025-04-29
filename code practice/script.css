@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+
+#bodybutton {
+    align-self: center;
+    margin-bottom: 20px;
+}
+#goodbody{
+    width: 30%;
+}
+
+#bodybutton{
+   justify-self: center;
+   margin-bottom: 20px;
+   
+}
+#bodybutton button{
+    cursor: pointer;
+    color: #ff9900;
+    background-color: #ffe5bf;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+   
+}
+#header{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+#non-filter input{
+width: 100%;
+height: 20px;
+border: none;
+background-color: #deddec;
+margin-bottom: 15px;
+}
+
+#filterhead{
+    margin-top: -50px;
+}
+
+#non-filter button{
+    display: flex;
+    justify-self: center;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff9900;
+    color: white;
+}
+
+
+#header p{
+margin-top: -10px;
+}
+
+#filterBody button{
+    display: flex;
+    justify-self: center;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff9900;
+    color: white;
+}
+
+#yourCurrentTotal{
+    display: flex;
+    text-align: center;
+}
+
+#next-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displaynone{
+    display: none;
+}
+
+.activebutton{
+    background-color: #ff9900;
+    color: #ffe5bf;
+   
+}

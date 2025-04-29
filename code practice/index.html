@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.css">
+ 
+</head>
+<body>
+<div id="goodbody">
+
+    <div id="header">
+    <h1>Hello, Mide</h1>
+    <p>Here's your current expense list</p></div>
+  
+
+    <!--Filter Item-->
+    <div id="filterHead" class="displaynone">
+        <p>Your Filtered List</p></div>
+
+
+       <div id="totalandlist" style="width: 300px;" class="displaynone">
+         <ul id="currentList"></ul>
+    <p id="yourCurrentTotal"></p></div>
+
+
+        <ul id="filteredList"></ul>
+
+
+    <div id="bodybutton">
+        <button id="add">add</button>
+        <button id="remove">remove</button>
+        <button id="filter">filter</button>
+    </div>
+
+
+<div id="next-body">
+
+    <div id="filterBody" class="displaynone">
+        <p id="displayrange"></p>
+        <label for="item-range">Enter Your Range</label><br>
+        <input style="width: 100%; border: none; height: 20px; background-color: #deddec;
+margin-bottom: 15px;" type="number" name="item-range" id="itemRange"><br>
+        <input type="radio" name="rangeDirection" id="AboveDirection">
+    
+        <label for="AboveDirection">Filter Above</label>
+        <input type="radio" name="rangeDirection" id="BelowDirection">
+        <label for="BelowDirection">Filter Below</label><br>
+        <button type="submit" id="rangeSubmit">Submit</button>
+
+</div>
+
+    <div id="non-filter">
+    <!--input item-->
+
+    <div id="inputItem" class="displaynone">
+    <label for="item-input">Input your Item</label> <br>
+    <input type="text" name="item-input" id="itemInput"><br>
+    <label for="Price-input">Amount</label>
+    <input type="text" name="Price-input" id="priceInput"><br>
+    <button type="submit" id="addSubmit">Submit</button></div>
+    
+
+    <!--remove item-->
+    <div id="removeItem" class="displaynone">
+    <label for="item-rem">Input your item name</label>
+    <input style="width: 100%;" type="text" name="item-rem" id="itemRemove"><br>
+    <button type="submit" id="removeSubmit">Submit</button></div></div>
+
+
+     </div>
+    </div><script src="scrip.js"></script>
+</body>
+</html>
